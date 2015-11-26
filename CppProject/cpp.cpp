@@ -1,20 +1,28 @@
 #include "cpp.h"
+#include <iostream>
+
+using namespace std;
+
 
 PriceList::PriceList()
 {
-    for (int i; i < 100; i++)
-    {
-        name[i] = 0;
-        price[i] = 0;
-    }
+   char **name = new char*;
+   cin >> N;
+   for (int i = 0; i < N; i++)
+   {
+       char *name = new char;
+   }
 }
 void PriceList::setname(int i)
 {
-    cin >> name[i];
-    return 0;
+    cin >> *name[i];
 }
-PriceList::setprice(int i)
+void PriceList::setprice(int i)
 {
     cin >> price[i];
-    return 0;
+
+}
+PriceList::~PriceList()
+{
+return;
 }

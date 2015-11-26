@@ -6,14 +6,16 @@ class PriceList
 {
 public:
     int price[100];
-    char name[100][20];
+    char **name;
+
     PriceList(); //конструктор
     ~PriceList(); //деструктор
-    setname(int i);
-    setprice(int i);
+   void setname(int i);
+    void setprice(int i);
     productdeleat();
     productpricesearch();
-}
+    int N;
+};
 
 
 
