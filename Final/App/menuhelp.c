@@ -5,5 +5,5 @@ void menuhelp()
     puts("2. You enter the number and the program determines whether it is divided by 3");
     puts("3. The program finds the N-th number in the Fibonacci sequence");
     puts("4. ");
-    puts(" ");
+    puts("5. Matrixmaker ");
 }

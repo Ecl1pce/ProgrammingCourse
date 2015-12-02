@@ -29,13 +29,21 @@ int main()
 
         fibonacci(Nth);
         break;
-    case 4:
-        scanf("%d", &x);
-        printf("%d", check(x));
+     case 4:
+
+        break;
+
+    case 5:
+        matrix();
+        break;
+
+    case 7:
+
         break;
 
     default:
         printf( "Badly insert \n" );
     }
+    system ("pause");
     return 0;
 }

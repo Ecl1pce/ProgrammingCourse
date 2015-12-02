@@ -9,12 +9,14 @@ SOURCES += main.c \
     menuhelp.c \
     fibonacci.c \
     check.c \
+    matrixmaker.c \
     matrix.c \
-    matrixmaker.c
+    strings.c
 
 HEADERS += \
     main.h \
     daynumbers.h \
     divideby3.h \
-    fibonacci.h
+    fibonacci.h \
+    marixmaker.h
 

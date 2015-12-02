@@ -14,4 +14,6 @@ void menuhelp();
 int fibonacci();
 int Nth;
 int x;
+void matrixmaker();
+void matrix();
 
