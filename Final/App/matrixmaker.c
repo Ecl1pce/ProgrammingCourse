@@ -16,7 +16,7 @@ void matrixmaker()
     for (i = 0; i < strok; i++)
         A[i] = (int*) malloc(stolbcov*sizeof(int));
      int j;
-     puts("Enter a matrix values\n");
+     puts("Enter matrix values\n");
     for (i = 0; i < strok; i++)
     {
         for (j = 0; j < stolbcov; j++)

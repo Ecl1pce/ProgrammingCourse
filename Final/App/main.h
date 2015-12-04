@@ -8,7 +8,7 @@ int input;
 int inputdaynumber;
 
 int daynumbers();
-int inputnumberfordividing;
+int inputnumber;
 int divideBy3();
 void menuhelp();
 int fibonacci();

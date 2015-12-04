@@ -18,9 +18,9 @@ int main()
 
     case 2:
         printf("Enter a number \n");
-        scanf("%d", &inputnumberfordividing);
+        scanf("%d", &inputnumber);
 
-        divideBy3(inputnumberfordividing);
+        divideBy3(inputnumber);
         break;
 
     case 3:
