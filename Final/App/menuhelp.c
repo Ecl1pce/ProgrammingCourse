@@ -6,4 +6,6 @@ void menuhelp()
     puts("3. The program finds the N-th number in the Fibonacci sequence");
     puts("4. ");
     puts("5. Matrixmaker ");
+    puts("0. Exit ");
+
 }

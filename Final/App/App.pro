@@ -11,12 +11,19 @@ SOURCES += main.c \
     check.c \
     matrixmaker.c \
     matrix.c \
-    strings.c
+    strings.c \
+    matrixnumbercheck.c \
+    matrixcheck.c \
+    mainmenu.c
 
 HEADERS += \
     main.h \
     daynumbers.h \
     divideby3.h \
     fibonacci.h \
-    marixmaker.h
+    matrixmaker.h \
+    matrixnumbercheck.h \
+    matrix.h \
+    matrixcheck.h \
+    check.h
 

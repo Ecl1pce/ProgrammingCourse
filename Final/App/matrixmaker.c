@@ -1,22 +1,18 @@
 #include <stdio.h>
 #include <stdlib.h>
-//В матрице A(m,n) записаны натуральные числа.
-//Найти первую строку, в которой либо все числа – простые, либо все числа – составные.
-//Вывести строку и обнаруженный признак (составные числа/простые числа).
+#include <matrixmaker.h>
+#include <matrixcheck.h>
 
-void matrixmaker()
+
+void matrixmaker(int strok, int stolbcov)   //строим матриу
 {
-    puts("Enter a size of matrix (M x N) ");
-    int strok;
-    int stolbcov;
-    scanf("%d%d", &strok, &stolbcov);
+
 
     int **A = (int**) malloc(strok *sizeof(int));
-    int i;
+
     for (i = 0; i < strok; i++)
         A[i] = (int*) malloc(stolbcov*sizeof(int));
-     int j;
-     puts("Enter matrix values\n");
+    puts("Enter matrix values\n");
     for (i = 0; i < strok; i++)
     {
         for (j = 0; j < stolbcov; j++)
@@ -24,6 +20,8 @@ void matrixmaker()
             scanf("%d", &A[i][j]);
         }
     }
+    puts("Your matrix: ");
+
     for (i = 0; i < strok; i++)
     {
         for (j = 0; j < stolbcov; j++)
@@ -32,6 +30,35 @@ void matrixmaker()
         }
         printf("\n");
     }
-   // system("pause");
-return;
+    printf("\n");
+
+    puts("Checking process...\n");
+
+    int q = 0;
+    int result;
+    for (i = 0; i < strok; i++)
+    {
+        for (j = 0; j < stolbcov; j++)
+        {
+            printf("%d ", A[i][j]);
+            q = q + check(A[i][j]);
+        }
+        if (q = 0)
+        {
+        printf("Simple numbers\n") ;
+        result = i;
+        }
+        if (q = stolbcov)
+        {
+        printf("Sostavnie numbers\n") ;
+        result = i;
+        }
+        else puts("Nikakie numbers");
+    }
+    for (j = 0; j < stolbcov; j++)
+        printf("%d ", A[result][j]);
+
+
+    system("\n pause");
+    return;
 }

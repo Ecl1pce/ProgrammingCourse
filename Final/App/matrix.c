@@ -1,6 +1,14 @@
-#include <main.h>
+#include <matrix.h>
+
+//В матрице A(m,n) записаны натуральные числа.
+//Найти первую строку, в которой либо все числа – простые, либо все числа – составные.
+//Вывести строку и обнаруженный признак (составные числа/простые числа).
+
 void matrix()
 {
- matrixmaker();
+    puts("Enter a size of matrix (M x N) ");
+    scanf("%d%d", &M, &N);
+
+    matrixmaker(M,N);
  return;
 }

@@ -1,4 +1,4 @@
-int check_nuber_of_number(number)
+int check_nuber_of_number(int number)
 {
     int k;
     k = 1;

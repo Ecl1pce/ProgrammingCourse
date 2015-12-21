@@ -2,7 +2,8 @@
 #define FIBONACCI
 
 #endif // FIBONACCI
-int N;
+int number;
 int i;
-int *p;
+int *ArrayOfFibonacci;
 int zifr;
+int result;
