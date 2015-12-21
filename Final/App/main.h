@@ -6,6 +6,8 @@
 void mainmenu();
 int input;
 int inputdaynumber;
+#include <stdlib.h>
+#include <stdio.h>
 
 int daynumbers();
 int inputnumber;

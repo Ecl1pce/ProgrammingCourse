@@ -13,8 +13,7 @@ SOURCES += main.c \
     matrix.c \
     strings.c \
     matrixnumbercheck.c \
-    matrixcheck.c \
-    mainmenu.c
+    matrixcheck.c
 
 HEADERS += \
     main.h \

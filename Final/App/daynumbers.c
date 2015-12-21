@@ -1,6 +1,6 @@
 #include <daynumbers.h>
 
-int daynumbers(inputday)
+int daynumbers(int inputday)
 {
     if (inputday < 7)
     {

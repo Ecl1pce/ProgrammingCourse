@@ -9,6 +9,9 @@ int j;
 int numberoutputstroki;
 int result;
 int itogostrok;
+#include <matrixnumbercheck.h>
+#include <stdio.h>
+#include <stdlib.h>
 
 
 #endif // MARIXMAKER

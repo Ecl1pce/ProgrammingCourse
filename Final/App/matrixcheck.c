@@ -1,7 +1,7 @@
 #include <matrixmaker.h>
 #include <matrixcheck.h>
 
-matrixcheck(const int **A)   //функция возвращает номер строки с обнаруженным признаком (простое или составное число)
+int matrixcheck(const int **A)   //функция возвращает номер строки с обнаруженным признаком (простое или составное число)
 {
     puts("Checking process...\n");
     int q = 0;
@@ -13,12 +13,12 @@ matrixcheck(const int **A)   //функция возвращает номер с
             printf("%d ", A[i][j]);
             q = q + check(A[i][j]);
         }
-        if (q = 0)
+        if (q == 0)
         {
         printf("Simple numbers\n") ;
         result = i;
         }
-        if (q = stolbcov)
+        if (q == stolbcov)
         {
         printf("Sostavnie numbers\n") ;
         result = i;
@@ -27,4 +27,5 @@ matrixcheck(const int **A)   //функция возвращает номер с
     for (j = 0; j < stolbcov; j++)
         printf("%d", A[result][j]);
     system("pause");
+    return 0;
 }

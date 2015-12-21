@@ -10,15 +10,15 @@ int fibonacci(int N)
     ArrayOfFibonacci = (int*) malloc(N * sizeof(int)); //выделяем память для массива
     ArrayOfFibonacci[1] = 1;
     ArrayOfFibonacci[2] = 1;
-    printf("%d %d ", ArrayOfFibonacci[1], ArrayOfFibonacci[2]);
+//    printf("%d %d ", ArrayOfFibonacci[1], ArrayOfFibonacci[2]);
     i = 3;
 
     for (i = 3; i <= N; i++)
     {
         ArrayOfFibonacci[i] = ArrayOfFibonacci[i-1] + ArrayOfFibonacci[i-2];
-        printf("%d ", ArrayOfFibonacci[i]);      
+//        printf("%d ", ArrayOfFibonacci[i]);
         setchik = setchik + check_nuber_of_number(ArrayOfFibonacci[i]);
-        printf(" %d ", setchik);
+//        printf(" %d ", setchik);
         if(setchik >= N)
         {
             number = i;
@@ -26,11 +26,11 @@ int fibonacci(int N)
         }
     }
     //setchik = setchik - check_nuber_of_number(ArrayOfFibonacci[number]);
-    puts("\nYour number is in this part\n");
-    printf("%d\n", ArrayOfFibonacci[number]);
-    puts("Zifra otlichaetsya ot konechnoi na: ");
+//    puts("\nYour number is in this part\n");
+//    printf("%d\n", ArrayOfFibonacci[number]);
+//    puts("Zifra otlichaetsya ot konechnoi na: ");
     int x = setchik - N; //позиция цифры с конца
-    printf("%d\n", x);
+//    printf("%d\n", x);
 
 
     if (x == 0)

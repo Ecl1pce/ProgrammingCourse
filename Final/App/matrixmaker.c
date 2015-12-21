@@ -43,12 +43,12 @@ void matrixmaker(int strok, int stolbcov)   //строим матриу
             printf("%d ", A[i][j]);
             q = q + check(A[i][j]);
         }
-        if (q = 0)
+        if (q == 0)
         {
         printf("Simple numbers\n") ;
         result = i;
         }
-        if (q = stolbcov)
+        if (q == stolbcov)
         {
         printf("Sostavnie numbers\n") ;
         result = i;
