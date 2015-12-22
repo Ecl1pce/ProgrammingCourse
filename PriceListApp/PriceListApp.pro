@@ -4,10 +4,8 @@ CONFIG -= app_bundle
 CONFIG -= qt
 
 SOURCES += main.cpp \
-    pricelist.cpp \
-    pricelistapp.cpp
+    PriceList.cpp
 
 HEADERS += \
-    pricelist.h \
-    pricelistapp.h
+    PriceList.h
 

@@ -2,7 +2,9 @@
 
 int main()
 {
+    setlocale(0, "");
     input = 100500;
+    puts("                                                         VVaskez Inc. presented\n\n");
     while (input!=0)
     {
         printf( "\nInsert 1 - 5 for the run a program or 0 to exit\n ");

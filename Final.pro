@@ -2,5 +2,6 @@ TEMPLATE = subdirs
 
 SUBDIRS += \
     App \
-    PriceListApp \
-    test
+    PriceListApp
+
+
