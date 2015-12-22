@@ -6,12 +6,13 @@
 
 void matrixmaker(int strok, int stolbcov)   //строим матриу
 {
-
+    q = 0;
+    result = -1;
 
     int **A = (int**) malloc(strok *sizeof(int));
 
     for (i = 0; i < strok; i++)
-        A[i] = (int*) malloc(stolbcov*sizeof(int));
+        A[i] = (int*) malloc(stolbcov*sizeof(int));        //выделение памяти под матрицу
     puts("Enter matrix values\n");
     for (i = 0; i < strok; i++)
     {
@@ -24,7 +25,7 @@ void matrixmaker(int strok, int stolbcov)   //строим матриу
 
     for (i = 0; i < strok; i++)
     {
-        for (j = 0; j < stolbcov; j++)
+        for (j = 0; j < stolbcov; j++)                   // вывод матрицы
         {
             printf("%d ", A[i][j]);
         }
@@ -32,33 +33,54 @@ void matrixmaker(int strok, int stolbcov)   //строим матриу
     }
     printf("\n");
 
-    puts("Checking process...\n");
+    puts("Checking process...");
 
-    int q = 0;
     int result;
     for (i = 0; i < strok; i++)
     {
+        q = 0;
         for (j = 0; j < stolbcov; j++)
         {
-            printf("%d ", A[i][j]);
+//            printf("%d ", A[i][j]);
             q = q + check(A[i][j]);
         }
         if (q == 0)
         {
-        printf("Simple numbers\n") ;
-        result = i;
+            result = i;
+            var = q;
+            j = stolbcov;
         }
         if (q == stolbcov)
         {
-        printf("Sostavnie numbers\n") ;
-        result = i;
+            result = i;
+            var = q;
+            j = stolbcov;
         }
-        else puts("Nikakie numbers");
+
     }
+    puts("\n");
+
+
+    if (var == 0)
+    {
+        puts("There's prime numbers\n");
+
     for (j = 0; j < stolbcov; j++)
         printf("%d ", A[result][j]);
+    }
 
-
-    system("\n pause");
+    else if (var == stolbcov)
+    {
+        puts("There's composite numbers\n");
+    for (j = 0; j < stolbcov; j++)
+        printf("%d ", A[result][j]);
+    }
+    else if (result == -1)
+        puts("There's no prime or composite numbers\n");
+    else
+        puts("Something goes wrong\n");
+    puts("\n");
+    system("pause");
+    puts("\n");
     return;
 }

@@ -32,11 +32,11 @@ int main()
             fibonacci(Nth);
             break;
         case 4:
-
+            matrix();
             break;
 
         case 5:
-            matrix();
+            strings();
             break;
 
         case 0:

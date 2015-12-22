@@ -9,6 +9,8 @@ int j;
 int numberoutputstroki;
 int result;
 int itogostrok;
+int q;
+int var;
 #include <matrixnumbercheck.h>
 #include <stdio.h>
 #include <stdlib.h>

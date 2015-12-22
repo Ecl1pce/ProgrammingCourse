@@ -6,7 +6,7 @@
 
 void matrix()
 {
-    puts("Enter a size of matrix (M x N) ");
+    puts("Enter a size of matrix (M x N)  (M = rows | N = columns) ");
     scanf("%d%d", &M, &N);
 
     matrixmaker(M,N);

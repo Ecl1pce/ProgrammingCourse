@@ -8,6 +8,7 @@ int input;
 int inputdaynumber;
 #include <stdlib.h>
 #include <stdio.h>
+void strings();
 
 int daynumbers();
 int inputnumber;
