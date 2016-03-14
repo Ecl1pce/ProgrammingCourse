@@ -12,3 +12,4 @@
 * Ильин Андрей [Labyrinth_Navigation](https://github.com/WalrusQ/labyrinth)
 * Бойцов Константин [TheReversyGame](https://github.com/ConstantineBoitsov/TheReversyGame)
 * Корсков Алексей [LivingCells](https://github.com/Korskov98/LivingCells.git)
+* Булгакова Маргарита [Students_Record_Book](https://github.com/BulgakovaMargarita/Students_Record_Book.git)
