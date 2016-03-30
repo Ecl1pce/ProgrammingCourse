@@ -13,3 +13,4 @@
 * Бойцов Константин [TheReversyGame](https://github.com/ConstantineBoitsov/TheReversyGame)
 * Корсков Алексей [LivingCells](https://github.com/Korskov98/LivingCells.git)
 * Булгакова Маргарита [Students_Record_Book](https://github.com/BulgakovaMargarita/Students_Record_Book.git)
+* Бачурихин Виктор [pazaak](https://github.com/Stupidman00/pazaak)
