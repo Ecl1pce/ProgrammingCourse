@@ -14,3 +14,4 @@
 * Корсков Алексей [LivingCells](https://github.com/Korskov98/LivingCells.git)
 * Булгакова Маргарита [Students_Record_Book](https://github.com/BulgakovaMargarita/Students_Record_Book.git)
 * Бачурихин Виктор [pazaak](https://github.com/Stupidman00/pazaak)
+* Крецу Андрей [Labyrinth_Redactor] (https://github.com/kreand/Labyrinth_Redactor)
